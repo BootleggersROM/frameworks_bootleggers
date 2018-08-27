@@ -33,8 +33,7 @@ import java.util.List;
 
 public abstract class BaseLayer
     implements DrawingContent, BaseKeyframeAnimation.AnimationListener, KeyPathElement {
-  private static final int SAVE_FLAGS = Canvas.CLIP_SAVE_FLAG | Canvas.CLIP_TO_LAYER_SAVE_FLAG |
-      Canvas.MATRIX_SAVE_FLAG;
+  private static final int SAVE_FLAGS = Canvas.ALL_SAVE_FLAG;
 
   @Nullable
   static BaseLayer forModel(
