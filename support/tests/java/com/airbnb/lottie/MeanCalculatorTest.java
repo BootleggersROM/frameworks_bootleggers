@@ -1,6 +1,6 @@
-package aoscp.support.lottie;
+package bootleggers.support.lottie;
 
-import aoscp.support.lottie.utils.MeanCalculator;
+import bootleggers.support.lottie.utils.MeanCalculator;
 
 import org.junit.Before;
 import org.junit.Test;

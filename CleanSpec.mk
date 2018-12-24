@@ -39,8 +39,8 @@
 # NEWER CLEAN STEPS MUST BE AT THE END OF THE LIST
 # ************************************************
 
-$(call add-clean-step, rm -rf $(OUT_DIR)/target/common/obj/JAVA_LIBRARIES/aoscp-support-*)
-#$(call add-clean-step, rm -rf $(OUT_DIR)/target/common/obj/aoscp-support.aidl)
+$(call add-clean-step, rm -rf $(OUT_DIR)/target/common/obj/JAVA_LIBRARIES/bootleggers-support-*)
+#$(call add-clean-step, rm -rf $(OUT_DIR)/target/common/obj/bootleggers-support.aidl)
 
 # ************************************************
 # NEWER CLEAN STEPS MUST BE AT THE END OF THE LIST
